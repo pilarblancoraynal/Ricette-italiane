@@ -1,0 +1,81 @@
+/****************GENERAL*************************/
+body {
+	font-family: Corbel, arial, sans-serif;
+	margin: 0;
+
+}
+
+a {color: #000000;
+	text-decoration: none;
+}
+/****************HEADER***********************/
+#header {
+	background-color:#00b33c;
+	}
+	h1 {font-size: 36px;
+		margin: 0;
+		text-align: center;
+		padding: 15px 0 0 0;
+		color: #ffffff;
+		text-transform: uppercase;
+
+
+}
+h2 {
+	text-align: center;
+	margin: 0;
+	color: #ffffff;
+}
+#nav {
+	background-color: #006622;
+	text-align: center;
+	list-style: none;
+}
+#nav li {
+	display: inline-block;
+	padding: 6px 8px 6px 8px;
+}
+#nav li a {
+	color: #ffffff;
+}
+#nav li:hover {
+	background-color:#00b33c;
+}
+/**************CONTENT***********************/
+#content {
+	width: 600px;
+	margin: 30px auto;
+}
+#content h4 {
+	border-bottom: #006622 solid 3px;
+}
+/*****************LINK TERMINI E CONDIZIONI**********/
+
+<html>
+<head>
+<style>
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+</style>
+</head>
+<body>
+
+</body>
+</html>
